@@ -147,7 +147,7 @@ vmgenid: 2131e419-443d-4d84-9a59-3d3ca4f04384
 ```
 
 
-Note: name, cores, memory, USB devices, and vmgenid can be different for your setup. Obviously, if your hardware or operating system is different, you might need a slightly different configuration. The USB passthrough lines (usb0-usb3) are optional and specific to my setup.
+Note: name, cores, memory, USB devices, and vmgenid can be different for your setup. Obviously, if your hardware or operating system is different, you might need a slightly different configuration. The USB passthrough lines (usb0-usb3) are optional and specific to my setup. To include specific usb devices, the easiest option is to add them in the hardware section of the VM.
 
 ### 7. Done
 After this, reboot the system and start the VM. The OS should show up on your connected monitor or TV, and HDMI audio should be visible as an audio source.
